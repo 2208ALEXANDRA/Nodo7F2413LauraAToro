@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Encabezado inspirado en Soda Stereo */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Logo de la banda */
+  .logo {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  /* Estilo de los enlaces */
+  a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sección principal */
+  .main-content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Títulos de sección al estilo Soda Stereo */
+  h2 {
+    border-bottom: 2px solid #1e90ff;
+    color: #000;
+    padding-bottom: 5px;
+  }
+  
+  /* Galería de imágenes al estilo de los álbumes */
+  .album-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .album {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .album img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Estilo de los botones al estilo Soda Stereo */
+  .btn {
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0b78e3;
+  }
