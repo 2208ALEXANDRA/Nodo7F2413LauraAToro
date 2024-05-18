@@ -1,0 +1,47 @@
+/* Estilos para la imagen de perfil */
+.profile-image {
+    max-width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para el contenedor principal */
+.profile-container {
+    text-align: center;
+    background-color: #8d34d6;
+    color: #ffffff;
+    padding: 20px;
+    width: 30%; /* Define el ancho deseado (puedes ajustarlo según tus necesidades) */
+    margin: 0 auto; /* Centra horizontalmente */
+    border: 2px solid #e7a2de; /* Define el grosor del borde */
+    border-radius: 10px;
+}
+
+/* Estilos para los detalles del perfil */
+.profile-details {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.occupation {
+    font-size: 18px;
+}
+
+.bio {
+    font-size: 16px;
+}
+
+/* Estilos para los enlaces de redes sociales */
+.contact,
+.experience,
+.education,
+.social-media {
+    font-size: 14px;
+    margin-top: 10px;
+}
